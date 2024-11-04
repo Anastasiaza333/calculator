@@ -1,4 +1,4 @@
-from constants import global_value
+from const import global_value
 import functions
 
 
