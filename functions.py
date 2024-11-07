@@ -1,4 +1,3 @@
-
 def addition(a,b):
     c = a + b
     

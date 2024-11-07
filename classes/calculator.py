@@ -1,6 +1,5 @@
-from const import global_value
+from my_constants import global_value
 import functions
-
 
 class Calculator:
     def __init__(self):

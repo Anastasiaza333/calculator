@@ -1,4 +1,4 @@
-from const import global_value
+from my_constants import global_value
 
 def setting():
     while True:
