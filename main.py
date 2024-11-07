@@ -13,6 +13,8 @@ def main():
                 calculator.run()
             case '2':
                 app_settings.setting()
+                
+                
             case '0':
                 print("Exiting the program. Goodbye!")
                 break
