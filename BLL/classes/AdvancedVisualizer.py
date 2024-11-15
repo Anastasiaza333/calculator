@@ -5,6 +5,7 @@ class AdvancedVisualizer(BasicVisualizer):
     def plot_scatter(self, x_column, y_column):
         plt.figure(figsize=(8, 6))
         plt.scatter(self.data[x_column], self.data[y_column])
+        
         plt.xlabel(x_column)
         plt.ylabel(y_column)
         plt.title(f"{y_column} vs {x_column}")
